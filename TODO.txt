@@ -1,0 +1,9 @@
+- Get the sentry event data
+- Get the current release
+- Get the release commit sha
+- For each file in the event traceback
+  - Return the each file that's part of repo
+  - Blame the file using the commit sha and the frame's line number
+- Sort the blame results by most recent?
+- Make assumptions about results
+- Post feedback to the event with the code's author info
