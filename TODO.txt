@@ -20,6 +20,8 @@ Objects
 
 Web Server
     - iron or nickle webserver running that accepts webhook POSTs
+        - single endpoint that accepts POSTs
+        - restrict origin IP?
     - Request -> Event
     - Check database to see if event is new.  Exit if not new.
     - Event -> Traceback

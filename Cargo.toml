@@ -7,4 +7,7 @@ authors = ["randy"]
 git2 = { git = "https://github.com/alexcrichton/git2-rs" }
 hyper = "0.10.0"
 hyper-native-tls = "0.2.1"
-serde_json = "0.8.4"
+rustc-serialize = "0.3.22"
+
+[dependencies.nickel]
+version = "*"
